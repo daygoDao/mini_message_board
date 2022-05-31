@@ -5,18 +5,17 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+    <h1>Welcome to <%= title %></h1>
     <ul>
       <% for(let message of messages) { %>
         <li>
-          <section>
+          <section class="card">
             <h4><%= message.user %></h4>
             <p><%= message.text %></p>
-            <p><%= message.add %></p>
+            <p><%= message.added %></p>
           </section>
         </li>
-        <% } %>
+      <% } %>
     </ul>
   </body>
 </html>

@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET users listing. */
+// get /new route
 router.get('/', function(req, res, next) {
-  res.send('new message page');
+  res.render('form', {idk: 'yo'});
 });
 
 module.exports = router;
