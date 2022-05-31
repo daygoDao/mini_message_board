@@ -27,5 +27,6 @@
     "url": "https://github.com/daygoDao/mini_message_board/issues"
   },
   "homepage": "https://github.com/daygoDao/mini_message_board#readme",
-  "description": ""
+  "description": "",
+  "engines": {"node": "17.9.0"}
 }
